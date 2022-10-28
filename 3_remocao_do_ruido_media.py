@@ -6,9 +6,9 @@ kernel = np.ones((3,3), np.float32)/9
 
 print(kernel)
 
-jetplaneImg = cv2.imread('./imagens_com_ruido/jetplane.png', cv2.IMREAD_GRAYSCALE)
-lenaImg = cv2.imread('./imagens_com_ruido/lena.png', cv2.IMREAD_GRAYSCALE)
-beeImg = cv2.imread('./imagens_com_ruido/bee.png', cv2.IMREAD_GRAYSCALE)
+jetplaneImg = cv2.imread('./imagens_resultados/imagens_com_ruido/jetplane.png', cv2.IMREAD_GRAYSCALE)
+lenaImg = cv2.imread('./imagens_resultados/imagens_com_ruido/lena.png', cv2.IMREAD_GRAYSCALE)
+beeImg = cv2.imread('./imagens_resultados/imagens_com_ruido/bee.png', cv2.IMREAD_GRAYSCALE)
 
 def add_media(img):
     # aplica um filtro linear arbitrário

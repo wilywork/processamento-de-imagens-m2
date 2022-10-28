@@ -21,7 +21,6 @@ def add_salt_and_pepper(img):
         img[coordy][coordx] = 0
     return img
 
-
 cv2.imwrite('imagens_resultados/imagens_com_ruido/jetplane.png', add_salt_and_pepper(jetplaneImg))
 cv2.imwrite('imagens_resultados/imagens_com_ruido/lena.png', add_salt_and_pepper(lenaImg))
 cv2.imwrite('imagens_resultados/imagens_com_ruido/bee.png', add_salt_and_pepper(beeImg))
